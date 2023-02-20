@@ -34,5 +34,6 @@ jobs:
 
 
     - name: run
-      run: ./build/binaryen_sourcemap_fix
+      run: ./binaryen_sourcemap_fix
+      working-directory: ./build
 
